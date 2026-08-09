@@ -1,92 +1,64 @@
-# 🛒 Online Shopping System
 
-<p align="center">
-  <b>A PHP-based Online Shopping System with an advanced admin panel</b>
-</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-Frontend-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/Bootstrap-UI-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-</p>
+> ## Updated project with extra Features like WISHLIST, List Orders, add Reviews, updated routing, resolved search bug is available for Premium
 
-<p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-admin-login">Admin Login</a> •
-  <a href="#-screenshots">Screenshots</a>
-</p>
 
----
 
-## 📌 About The Project
+# Installation
 
-The **Online Shopping System** is a PHP and MySQL based e-commerce web application designed to provide an online shopping experience with an admin management panel.
+1. Install XAMPP or WAMPP.
 
-The project includes shopping features such as product management, wishlist, order listing, reviews, user registration, login, and updated routing.
+2. Open XAMPP Control panal and start [apache] and [mysql] .
 
----
+3. Download project from github(https\://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-page.git)
+   OR follow gitbash commands
 
-## ✨ Features
+   i>cd C:\xampp\htdocs
 
-### 🛍️ Customer Features
 
-- 👤 User Registration & Login
-- 🛒 Online Shopping
-- ❤️ Wishlist
-- 📦 List & Manage Orders
-- ⭐ Add Product Reviews
-- 🔎 Product Search
-- 🧭 Updated Routing
-- 🐛 Resolved Search Functionality Issues
+   ii>git clone https\://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-page.git
 
-### 🔐 Admin Features
+4. extract files in C:\xampp\htdocs.
 
-- 👨‍💼 Admin Login
-- 📦 Product Management
-- 🛍️ Order Management
-- 👥 User Management
-- 📊 Advanced Admin Panel
+5. open link localhost/phpmyadmin
 
----
+6. click on new at side navbar.
 
-## 🛠️ Tech Stack
+7. give a database name as (onlineshop) hit on create button.
 
-| Technology | Usage |
-|------------|-------|
-| 🐘 PHP | Backend Development |
-| 🗄️ MySQL | Database |
-| 🌐 HTML5 | Frontend Structure |
-| 🎨 CSS3 | Styling |
-| ⚡ JavaScript | Frontend Functionality |
-| 🅱️ Bootstrap | Responsive UI |
-| 🖥️ XAMPP/WAMP | Local Server |
+8. after creating database name click on import.
 
----
+9. browse the file in directory[online-shopping-system-with-advanced-admin-page/database/onlineshop.sql].
 
-## 📂 Project Structure
+10. after importing successfully.
 
-```text
-online-shopping-system/
-│
-├── database/
-│   └── onlineshop.sql
-│
-├── admin/
-│   └── Admin Panel
-│
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-│
-├── includes/
-│
-├── index.php
-├── login.php
-├── register.php
-└── README.md
+11. open any browser and type [http://localhost/online-shopping-system-with-advanced-admin-page-master](http://localhost/online-shopping-system-with-advanced-admin-page-master).
+
+12. first register and then login
+
+13. admin login details  Email=[admin@gmail.com](mailto\:admin@gmail.com) or username = admin and Password=123456789.
+
+## If you like my project
+
+Bye me Cup of coffee
+
+## visit my other repository with different admin pages with below link
+
+https\://github.com/PuneethReddyHC/online-shopping-system-advanced
+
+https\://github.com/PuneethReddyHC/event-management
+
+## If you like my project hit a star button
+
+
+
+# Screenshots
+
+
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+"# online-shoping-system" make readme page for interrative 
